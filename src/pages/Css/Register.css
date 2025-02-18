@@ -1,0 +1,95 @@
+/* Container for the Register page */
+.register-container {
+    max-width: 868px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Card styles */
+  .register-card {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* Title styles */
+  .register-title {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  .register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  /* Input styles */
+  .register-input {
+    width: 100%;
+    background-color: #111112;
+    border: 1px solid #AEE8CE;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    color: white;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .register-input:focus {
+    border-color: #AEE8CE;
+  }
+  
+  /* Actions container */
+  .register-actions {
+    grid-column: span 2;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .register-button {
+    width: 100%;
+    background-color: #AEE8CE;
+    color: #1f2937;
+    font-weight: 500;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .register-button:hover {
+    background-color: #AEE8CE;
+  }
+  
+  /* Footer styles */
+  .register-footer {
+    margin-top: 1rem;
+    color: #9ca3af;
+    font-size: 0.875rem;
+  }
+  
+  /* Link styles */
+  .register-link {
+    color: #AEE8CE;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .register-link:hover {
+    color: #AEE8CE;
+  }
+  
