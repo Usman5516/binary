@@ -1,5 +1,5 @@
 body{
-    font-family: Space Grotesk;
+  font-family: 'Space Grotesk', 'Poppins', sans-serif;
 }
 .login-container {
     display: flex;
@@ -10,7 +10,11 @@ body{
     max-width: 1200px;
     margin: 0 auto;
   }
-  
+  @media (min-width: 1680px) {
+    .Rebot-image {
+      left: 450px !important;
+    }
+  }
   @media (min-width: 1024px) {
     .login-container {
       flex-direction: row;

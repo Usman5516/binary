@@ -1,3 +1,8 @@
+body{
+  font-family: 'Space Grotesk', 'Poppins', sans-serif;
+}
+
+
 /* Container for the Register page */
 .register-container {
     max-width: 868px;
